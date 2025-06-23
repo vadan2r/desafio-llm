@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky blue background */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF; /* White background for the game area */
+    border: 2px solid #000000; /* Black border around the canvas */
+}
+
+h1 {
+    text-align: center;
+    color: #FF4500; /* Orange color for the title */
+    font-family: 'Arial', sans-serif;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #FF0000; /* Red color for game over text */
+    font-family: 'Arial', sans-serif;
+    display: none; /* Hidden by default */
+}
